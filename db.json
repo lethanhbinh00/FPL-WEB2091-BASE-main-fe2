@@ -1,0 +1,34 @@
+{
+  "products": [
+    {
+      "name": "iPhone 15 update",
+      "image": "https://product.hstatic.net/200000456405/product/52649_dien_thoai_thong_minh_apple_iphone_15_pro_xanh_4_8796820263cb4842b005a73523dc58dd.png",
+      "price": "250001",
+      "description": "Sản phẩm tốt",
+      "category": "Phone",
+      "id": 1
+    },
+    {
+      "name": "bbb",
+      "image": "https://picsum.photos/id/11/300",
+      "price": "11111",
+      "description": "fgnf",
+      "category": "Tablet",
+      "id": 2
+    }
+  ],
+  "users": [
+    {
+      "email": "binh@gmail.com",
+      "password": "$2a$10$0GHRKYOdrOPxAJJOx3oWuOdqlRXInfb8cBp36zSASPB1Uep5JnWa6",
+      "username": "binh",
+      "id": 1
+    },
+    {
+      "email": "admin@gmail.com",
+      "password": "$2a$10$39.pRTaOu/Ugd14KJtCCiueakMdc7XMGfFBgkmzKC6aPlYgLIla.m",
+      "username": "binhqq",
+      "id": 2
+    }
+  ]
+}
