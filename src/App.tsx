@@ -1,12 +1,16 @@
 import { Toaster } from "react-hot-toast";
-import { Link, Route, Routes } from "react-router-dom";
+import { Link, Route, Routes, useNavigate } from "react-router-dom";
 import ListPage from "./pages/ListPage";
 import AddPage from "./pages/AddPage";
 import EditPage from "./pages/EditPage";
 import Register from "./pages/Register";
 import Login from "./pages/Login";
+import { useEffect, useState } from "react";
+import { message } from "antd";
+import ProtectedRoute from "./pages/ProtectedRoute";
 
 function App() {
+
   return (
     <>
       <nav className="bg-blue-600 text-white shadow">
@@ -19,32 +23,39 @@ function App() {
             <Link to="#" className="hover:text-gray-200">
               Trang chủ
             </Link>
-            <Link to="/products" className="hover:text-gray-200">
+            <Link to="/tasks" className="hover:text-gray-200">
               Danh sách
             </Link>
-            <Link to="/products/add" className="hover:text-gray-200">
+            <Link to="/tasks/add" className="hover:text-gray-200">
               Thêm mới
             </Link>
           </div>
-
-          <div className="hidden md:flex items-center space-x-6">
-            <Link to="/login" className="hover:text-gray-200">
-              Đăng nhập
-            </Link>
-            <Link to="/register" className="hover:text-gray-200">
-              Đăng ký
-            </Link>
-          </div>
+          
+            {/* <button
+            
+              className="hover:text-gray-200 bg-red-500 px-4 py-2 rounded"
+            >
+              Đăng xuất
+            </button>  */}
+        
+            <div className="hidden md:flex items-center space-x-4">
+              <Link to="/login" className="hover:text-gray-200">
+                Đăng nhập
+              </Link>
+              <Link to="/register" className="hover:text-gray-200">
+                Đăng ký
+              </Link>
+            </div>
+        
+            
         </div>
       </nav>
       <Routes>
-        <Route>
-          <Route path="/products" element={<ListPage />}/>
-          <Route path="/products/add" element={<AddPage />}/>
-          <Route path="/products/edit/:id" element={<EditPage />}/>
-          <Route path="/register" element={<Register />}/>
-          <Route path="/login" element={<Login />}/>
-        </Route>
+        <Route path="/tasks" element={<ListPage />} />
+        <Route path="/tasks/add" element={<AddPage />} />
+        <Route path="/tasks/edit/:id" element={<EditPage />} />
+        <Route path="/register" element={<Register />} />
+        <Route path="/login" element={<Login />} />
       </Routes>
 
       <Toaster />

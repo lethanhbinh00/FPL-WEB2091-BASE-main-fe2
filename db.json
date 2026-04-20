@@ -1,33 +1,111 @@
 {
-  "products": [
-    {
-      "name": "iPhone 15 update",
-      "image": "https://product.hstatic.net/200000456405/product/52649_dien_thoai_thong_minh_apple_iphone_15_pro_xanh_4_8796820263cb4842b005a73523dc58dd.png",
-      "price": "250001",
-      "description": "Sản phẩm tốt",
-      "category": "Phone",
-      "id": 1
-    },
-    {
-      "name": "bbb",
-      "image": "https://picsum.photos/id/11/300",
-      "price": "11111",
-      "description": "fgnf",
-      "category": "Tablet",
-      "id": 2
-    }
-  ],
   "users": [
     {
-      "email": "binh@gmail.com",
-      "password": "$2a$10$0GHRKYOdrOPxAJJOx3oWuOdqlRXInfb8cBp36zSASPB1Uep5JnWa6",
-      "username": "binh",
+      "email": "admin222@gmail.com",
+      "password": "$2a$10$hfa567TEPzeKlF01nwdoLuvsKA2x5JfbJCn2EwAAiXSiPWLxHuJPi",
+      "username": "dsvdsvb",
       "id": 1
     },
     {
-      "email": "admin@gmail.com",
-      "password": "$2a$10$39.pRTaOu/Ugd14KJtCCiueakMdc7XMGfFBgkmzKC6aPlYgLIla.m",
-      "username": "binhqq",
+      "email": "adminggg@gmail.com",
+      "password": "$2a$10$eZG/I6HFJZpgLJ/puoWbpe2pVsoVPGbebh3xvKOt5GPAoA4iCU9Qu",
+      "username": "binh22",
+      "id": 2
+    },
+    {
+      "email": "bfdb@gmail.com",
+      "password": "$2a$10$.av4q5jHvVsMa1E7xbN9eOzOtCzXs4rZ0vLFIzlRWTBM.Gscyb7.y",
+      "username": "binh22b",
+      "id": 3
+    },
+    {
+      "email": "binhkk@gmail.com",
+      "password": "$2a$10$m51ekZXQy73.ixY6s53iKu0VbKu4ORgu/3opqc89pKukpttud6iIm",
+      "username": "binh22b",
+      "id": 4
+    },
+    {
+      "email": "bbb@gmail.com",
+      "password": "$2a$10$WqixhTFOtNLOXefV0hycYucTj4zMym7mosPabZbPdyjFhGjxvzBO.",
+      "username": "bin",
+      "id": 5
+    },
+    {
+      "email": "123@gmail.com",
+      "password": "$2a$10$GucaO46kAY7YE3DtNatoLeNpM92BBUuZBVvTjV32elUunxDTa6RSe",
+      "username": "binhk",
+      "id": 6
+    },
+    {
+      "email": "binh@gmail.com",
+      "password": "$2a$10$7FOoEBNDvc3qrdfcvXSh3uVEA200VM7UDoAhR.eKhjU/94wJ5XLoa",
+      "username": "binh",
+      "id": 7
+    },
+    {
+      "email": "1234@gmail.com",
+      "password": "$2a$10$Kf.U3My.kFF197LSAkHUkuOUgIe4H6sEEtHP4OroCyju4ud2MEqwW",
+      "username": "binh",
+      "id": 8
+    },
+    {
+      "email": "binh11@gmail.com",
+      "password": "$2a$10$y4j33n1XoFWtAXvtWqqabOSO8tlM/WsOZT/ZeeDSUGATSWFw6jau6",
+      "username": "binh",
+      "id": 9
+    },
+    {
+      "email": "adminb@gmail.com",
+      "password": "$2a$10$zrXo6faj.PUNNuaGmw1eJ.f8s3Ygnr4Qv0Jo.uRrjqZfU/ryzkh3G",
+      "username": "binhh",
+      "id": 10
+    },
+    {
+      "email": "binhh@gmail.com",
+      "password": "$2a$10$bwI2vG5cGfLCp7xO84W9Ye7ES1UH0lUewuQNHfZX6hH.IJYaeCXje",
+      "username": "binhh",
+      "id": 11
+    },
+    {
+      "email": "binh12@gmail.com",
+      "password": "$2a$10$jTJHCEDOY7pmidkQq0KHZOxd3xpDxt7HxwRM8L6TvuGpyiXzLhSRC",
+      "username": "binh12",
+      "id": 12
+    },
+    {
+      "email": "binh13@gmail.com",
+      "password": "$2a$10$qFRrrhzkZj3kTsoJ/Qu.Tee6SLgy6tVEke52Nk8.m91wgFAsVKLla",
+      "username": "binh13",
+      "id": 13
+    },
+    {
+      "email": "binh14@gmail.com",
+      "password": "$2a$10$9nDm/xOLN9XveTstsf3Q1eLve3ptmHbPPkoMABYtT9r/y.cDZuHMW",
+      "username": "binh14",
+      "id": 14
+    },
+    {
+      "email": "binh15@gmail.com",
+      "password": "$2a$10$1uBpWIZGaAq9qlWwAVBT/uJ5YlpNxk3fnjAs.vgpHp/TZ9snYugvi",
+      "username": "binh15@gmail.com",
+      "id": 15
+    }
+  ],
+  "tasks": [
+    {
+      "name": "Học Angular",
+      "duration": "15",
+      "content": "Ôn tập component và CRUD",
+      "priority": "Low",
+      "id": 1
+    },
+    {
+      "name": "binhh",
+      "image": "https://picsum.photos/id/11/300/300",
+      "date": "2026-04-06",
+      "duration": "16",
+      "content": "bbbbb",
+      "priority": "Low",
       "id": 2
     }
   ]
