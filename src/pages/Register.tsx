@@ -5,7 +5,6 @@ import { useNavigate } from "react-router-dom";
 
 function Register() {
   
-
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-50 p-6">
       <Card className="w-full max-w-md shadow-lg rounded-2xl">
@@ -17,6 +16,7 @@ function Register() {
           <Form.Item
             label="Username"
             name="username"
+            className="text-center"
           >
             <Input size="large" />
           </Form.Item>
@@ -24,6 +24,8 @@ function Register() {
           <Form.Item
             label="Email"
             name="email"
+            className="text-center"
+            
           >
             <Input size="large" />
           </Form.Item>
@@ -31,6 +33,7 @@ function Register() {
           <Form.Item
             label="Password"
             name="password"
+            className="text-center"
           >
             <Input.Password size="large" />
           </Form.Item>

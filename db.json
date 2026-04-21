@@ -89,18 +89,29 @@
       "password": "$2a$10$1uBpWIZGaAq9qlWwAVBT/uJ5YlpNxk3fnjAs.vgpHp/TZ9snYugvi",
       "username": "binh15@gmail.com",
       "id": 15
+    },
+    {
+      "email": "binh16@gmail.com",
+      "password": "$2a$10$sPpBxOjNhThCgxmy2f5mg.uh9FXEWmdIrs17LVM8wh0lrMOo7uvhG",
+      "username": "binh16@gmail.com",
+      "id": 16
+    },
+    {
+      "email": "binh17@gmail.com",
+      "password": "$2a$10$Iokgc.IB0dwxLYpqkvPRoOatFvGA8NiQM6xEWZtIjeHKRiKlGgcZ6",
+      "username": "binh17@gmail.com",
+      "id": 17
+    },
+    {
+      "email": "binh18@gmail.com",
+      "password": "$2a$10$BnmyMru1r7A8GJLUcaJykuScuuCkeIVlQxSrrcFvVmm8r3paaZlWa",
+      "username": "binh18@gmail.com",
+      "id": 18
     }
   ],
   "tasks": [
     {
-      "name": "Học Angular",
-      "duration": "15",
-      "content": "Ôn tập component và CRUD",
-      "priority": "Low",
-      "id": 1
-    },
-    {
-      "name": "binhh",
+      "name": "binhh 1",
       "image": "https://picsum.photos/id/11/300/300",
       "date": "2026-04-06",
       "duration": "16",

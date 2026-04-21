@@ -1,9 +1,12 @@
-import { Button, Form, Input, Card, Select } from "antd";
+import { useMutation, useQueryClient } from "@tanstack/react-query";
+import { Button, Form, Input, Card, Select, message } from "antd";
+import axios from "axios";
+import { useNavigate } from "react-router-dom";
 
 
 
 function AddPage() {
-
+  
 
 return (
   <div className="min-h-screen flex items-center justify-center bg-gray-50 p-6">
@@ -12,7 +15,7 @@ return (
         Thêm mới
       </h1>
       <Form 
-      
+        
         layout="vertical"
         className="space-y-2"
       >
@@ -21,7 +24,6 @@ return (
           label="Name"
           name="name"
           className="text-center"
-         
         >
           <Input
             size="large"
@@ -31,7 +33,6 @@ return (
           label="Image"
           name="image"
           className="text-center"
-         
         >
           <Input
             size="large"
@@ -41,7 +42,6 @@ return (
           label="Date"
           name="date"
           className="text-center"
-          
         >
           <Input
             size="large"
@@ -53,7 +53,6 @@ return (
           label="Duration"
           name="duration"
           className="text-center"
-         
         >
           <Input
             size="large"
@@ -67,7 +66,6 @@ return (
           label="Content"
           name="content"
           className="text-center"
-          
         >
           <Input.TextArea
             size="large"
@@ -79,7 +77,6 @@ return (
           label="Priority"
           name="priority"
           className="text-center"
-          
         >
           <Select
             size="large"

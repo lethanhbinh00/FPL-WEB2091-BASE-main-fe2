@@ -10,6 +10,7 @@ import { message } from "antd";
 import ProtectedRoute from "./pages/ProtectedRoute";
 
 function App() {
+  
 
   return (
     <>
@@ -30,14 +31,13 @@ function App() {
               Thêm mới
             </Link>
           </div>
-          
-            {/* <button
-            
+          {/* <button
+              
               className="hover:text-gray-200 bg-red-500 px-4 py-2 rounded"
             >
               Đăng xuất
-            </button>  */}
-        
+            </button> */}
+         
             <div className="hidden md:flex items-center space-x-4">
               <Link to="/login" className="hover:text-gray-200">
                 Đăng nhập
@@ -46,13 +46,13 @@ function App() {
                 Đăng ký
               </Link>
             </div>
+       
         
-            
         </div>
       </nav>
       <Routes>
         <Route path="/tasks" element={<ListPage />} />
-        <Route path="/tasks/add" element={<AddPage />} />
+        <Route path="/tasks/add" element={<AddPage />}/>
         <Route path="/tasks/edit/:id" element={<EditPage />} />
         <Route path="/register" element={<Register />} />
         <Route path="/login" element={<Login />} />
