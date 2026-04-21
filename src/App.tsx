@@ -22,10 +22,10 @@ function App() {
             <Link to="#" className="hover:text-gray-200">
               Trang chủ
             </Link>
-            <Link to="/tasks" className="hover:text-gray-200">
+            <Link to="/students" className="hover:text-gray-200">
               Danh sách
             </Link>
-            <Link to="/tasks/add" className="hover:text-gray-200">
+            <Link to="/students/add" className="hover:text-gray-200">
               Thêm mới
             </Link>
           </div>
