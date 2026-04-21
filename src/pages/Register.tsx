@@ -1,7 +1,5 @@
-import { useMutation } from "@tanstack/react-query";
-import { Button, Card, Form, Input, message } from "antd";
-import axios from "axios";
-import { useNavigate } from "react-router-dom";
+import { Button, Card, Form, Input } from "antd";
+
 
 function Register() {
   

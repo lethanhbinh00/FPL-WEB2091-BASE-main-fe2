@@ -1,13 +1,11 @@
 import { Toaster } from "react-hot-toast";
-import { Link, Route, Routes, useNavigate } from "react-router-dom";
+import { Link, Route, Routes } from "react-router-dom";
 import ListPage from "./pages/ListPage";
 import AddPage from "./pages/AddPage";
 import EditPage from "./pages/EditPage";
 import Register from "./pages/Register";
 import Login from "./pages/Login";
-import { useEffect, useState } from "react";
-import { message } from "antd";
-import ProtectedRoute from "./pages/ProtectedRoute";
+
 
 function App() {
   
